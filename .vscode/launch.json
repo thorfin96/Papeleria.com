@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PapeleriaApplication<Papeleria>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.papeleria.Papeleria.PapeleriaApplication",
+            "projectName": "Papeleria",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

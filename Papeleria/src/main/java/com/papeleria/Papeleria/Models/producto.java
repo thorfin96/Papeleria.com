@@ -16,11 +16,13 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class producto {
+public class Producto {
 @Id
-//@GeneratedValue(strategy = GenerationType.IDENTITY)
+@GeneratedValue(strategy = GenerationType.IDENTITY)
     private int idproducto;
     private String nombreProducto;
     private String detalleProducto;
+    
+
     
 }
