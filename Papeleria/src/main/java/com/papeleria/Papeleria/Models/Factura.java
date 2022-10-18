@@ -18,7 +18,7 @@ import lombok.Setter;
 @Setter
 public class Factura {
 @Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
+//@GeneratedValue(strategy = GenerationType.IDENTITY)
     private int idFactura;
     private int idVendedor;
     private int nitPapeleria;

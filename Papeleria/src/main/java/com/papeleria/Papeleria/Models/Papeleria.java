@@ -18,7 +18,7 @@ import lombok.Setter;
 @Setter
 public class Papeleria {
 @Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
+//@GeneratedValue(strategy = GenerationType.IDENTITY)
     private int nitPapeleria;
     private String nombrePapeleria;
     private int telefonoPapeleria;

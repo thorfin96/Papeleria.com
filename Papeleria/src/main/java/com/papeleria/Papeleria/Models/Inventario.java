@@ -18,7 +18,7 @@ import lombok.Setter;
 @Setter
 public class Inventario {
 @Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
+//@GeneratedValue(strategy = GenerationType.IDENTITY)
     private int nitProveedor;
     private int idProducto;
     private String fecha;

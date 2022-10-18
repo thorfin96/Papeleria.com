@@ -18,7 +18,7 @@ import lombok.Setter;
 @Setter
 public class TipoPersona {
 @Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
+//@GeneratedValue(strategy = GenerationType.IDENTITY)
     private int idTipo;
     private int Rol;
 

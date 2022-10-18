@@ -18,7 +18,7 @@ import lombok.Setter;
 @Setter
 public class producto {
 @Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
+//@GeneratedValue(strategy = GenerationType.IDENTITY)
     private int idproducto;
     private String nombreProducto;
     private String detalleProducto;
