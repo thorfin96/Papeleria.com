@@ -6,8 +6,9 @@ package src;
 
 /**
  *
- * @author carlo
+ * @author carlos
  */
+ 
 public class NewClass {
     
 }
