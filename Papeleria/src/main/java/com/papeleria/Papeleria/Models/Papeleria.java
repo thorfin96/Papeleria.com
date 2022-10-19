@@ -18,6 +18,7 @@ import lombok.Setter;
 @Setter
 public class Papeleria {
 @Id
+//creacion tabala papeleria
 //@GeneratedValue(strategy = GenerationType.IDENTITY)
     private int nitPapeleria;
     private String nombrePapeleria;
