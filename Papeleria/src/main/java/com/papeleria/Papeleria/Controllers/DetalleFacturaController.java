@@ -1,5 +1,4 @@
 package com.papeleria.Papeleria.Controllers;
-
 import com.papeleria.Papeleria.Models.DetalleFacturaModel;
 import com.papeleria.Papeleria.Repositories.DetalleFacturaRepository;
 import org.springframework.beans.factory.annotation.Autowired;

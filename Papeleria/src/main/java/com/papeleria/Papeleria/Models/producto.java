@@ -22,7 +22,5 @@ public class Producto {
     private int idproducto;
     private String nombreProducto;
     private String detalleProducto;
-    
-
-    
+        
 }
