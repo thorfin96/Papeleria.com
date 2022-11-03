@@ -1,7 +1,7 @@
 package com.papeleria.Papeleria.Models;
 import javax.persistence.Entity;
-//import javax.persistence.GeneratedValue;
-//import javax.persistence.GenerationType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -19,7 +19,7 @@ import lombok.Setter;
 public class Papeleria {
 @Id
 //creacion tabala papeleriaa
-//@GeneratedValue(strategy = GenerationType.IDENTITY)
+@GeneratedValue(strategy = GenerationType.IDENTITY)
     private int nitPapeleria;
     private String nombrePapeleria;
     private int telefonoPapeleria;
